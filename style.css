@@ -29,7 +29,7 @@ body.dark {
 }
 
 .card {
-    background: #d9ecff !important; /* soft baby blue */
+    background: #95bdfc !important;
     padding: 20px;
     margin: 20px auto;
     width: 85%;
@@ -45,7 +45,7 @@ body.dark {
 }
 
 body.dark .card {
-    background: #2b3e55 !important; /* deep muted blue */
+    background: #5c91e6 !important;
     border: 1px solid #3f5570;
     box-shadow: 0 4px 14px rgba(135, 180, 255, 0.2);
 }
