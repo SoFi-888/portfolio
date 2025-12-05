@@ -29,23 +29,24 @@ body.dark {
 }
 
 .card {
-    background: white;
+    background: #e7f2ff;
     padding: 20px;
     margin: 20px auto;
     width: 85%;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 1px solid #c7ddf4;
+    box-shadow: 0 4px 12px rgba(0, 114, 255, 0.15);
     transition: 0.3s ease;
 }
 
 .card:hover {
     transform: scale(1.02);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 18px rgba(0, 114, 255, 0.25);
 }
 
 body.dark .card {
-    background: #1e1e1e;
-    color: #fff;
-    box-shadow: 0 4px 14px rgba(255,255,255,0.08);
+    background: #1e2b3a;
+    border: 1px solid #2f4a63;
+    box-shadow: 0 4px 14px rgba(135, 180, 255, 0.2);
 }
 
