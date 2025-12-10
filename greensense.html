@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenSense – Smart Farming Insights</title>
+
+    <style>
+      body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            line-height: 1.6;
+            color: #2e3d2f;
+            background-color: #f6fff6;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            color: #2a572a;
+        }
+        p {
+            margin: 0 0 1em;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        /* Layout Containers */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #4caf50;
+            color: white;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #3b8e42;
+        }
+
+        /* -------------------------
+           HERO SECTION
+        --------------------------*/
+        .hero {
+            background: url('https://images.pexels.com/photos/1300972/pexels-photo-1300972.jpeg?auto=compress') center/cover no-repeat;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 650px;
+            margin: 10px auto;
+        }
+
+        /* -------------------------
+           FEATURES SECTION
+        --------------------------*/
+        .features {
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .feature-card {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #e9ffe7;
+            box-shadow: 0 0 10px rgba(0,0,0,0.06);
+        }
+
+        /* -------------------------
+           VISUAL ELEMENT SECTION
+        --------------------------*/
+        .visual-section {
+            background-color: #f0fff0;
+            text-align: center;
+        }
+        .visual-section img {
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        /* -------------------------
+           INFORMATION SECTION
+        --------------------------*/
+        .info-section {
+            background-color: #ffffff;
+        }
+        .info-content {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .info-content div {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        /* -------------------------
+           CTA SECTION
+        --------------------------*/
+        .cta {
+            background-color: #4caf50;
+            text-align: center;
+            color: white;
+            padding: 50px 0;
+        }
+        .cta h2 {
+            font-size: 2rem;
+        }
+
+        /* -------------------------
+           FOOTER
+        --------------------------*/
+        footer {
+            background-color: #1f3d1f;
+            color: #d0ffd0;
+            padding: 25px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* -------------------------
+           RESPONSIVE DESIGN
+        --------------------------*/
+        @media (max-width: 900px) {
+            .features-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (max-width: 600px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <h1>GreenSense</h1>
+            <p>Smart insights for small greenhouse farmers — make better decisions, reduce waste, and increase profits with ease.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Use GreenSense?</h2>
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <h3>Track Transactions</h3>
+                    <p>Log your expenses and sales with just a few taps.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>AI Insights</h3>
+                    <p>Get automated analysis of crop profit, cost trends, and performance.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Smart Alerts</h3>
+                    <p>Receive notifications about high costs, crop issues, or profitable opportunities.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL SECTION -->
+    <section class="visual-section">
+        <div class="container">
+            <h2>See Your Farm Clearly</h2>
+            <p>Understand your crops and costs with simple, visual reports.</p>
+            <img src="https://images.pexels.com/photos/3735175/pexels-photo-3735175.jpeg?auto=compress" alt="Dashboard Mockup">
+        </div>
+    </section>
+
+    <!-- INFORMATION SECTION -->
+    <section class="info-section">
+        <div class="container">
+            <h2>Grow Smarter with GreenSense</h2>
+            <div class="info-content">
+                <div>
+                    <h3>Reduce Waste</h3>
+                    <p>Know exactly how much to plant and avoid overproduction.</p>
+                </div>
+                <div>
+                    <h3>Plan Your Seasons</h3>
+                    <p>Use real historical trends to prepare upcoming crops efficiently.</p>
+                </div>
+                <div>
+                    <h3>Increase Profits</h3>
+                    <p>Focus on your most profitable crops and best-performing customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Make Farming Easier?</h2>
+            <p>Join thousands of small greenhouse farmers using smart insights to grow more profitably.</p>
+            <a href="#" class="btn">Sign Up Now</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 GreenSense | Contact: info@greensense.com | Follow us on social media</p>
+    </footer>
+
+</body>
+</html>
