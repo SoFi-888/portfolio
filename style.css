@@ -22,15 +22,6 @@ button {
 	cursor: pointer;
 }
 
-.hero-desc,
-.features-desc,
-.info-desc {
-  max-width: 700px;
-  margin: 10px auto 0;
-  font-size: 1.05rem;
-  opacity: 0.95;
-}
-
 body.dark {
 	background-color: #121212;
 	color: #f5f5f5;
