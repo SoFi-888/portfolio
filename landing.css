@@ -53,17 +53,17 @@ body {
 .cta {
   padding: 15px 30px;
   font-size: 1.1rem;
-  background-color: #5ff59c; /* Light green */
+  background-color: #00c951;
   color: white;
-  border: 2px solid #5ff59c; /* Added subtle border for definition */
+  border: 2px solid #00c951;
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s;
-  margin-top: 20px; /* Added spacing below the paragraph */
+  margin-top: 20px;
 }
 
 .cta:hover {
-  background-color: #00c951; /* Darker green on hover */
+  background-color: #03702f;
   border-color: #00c951;
 }
 
