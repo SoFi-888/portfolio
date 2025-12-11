@@ -8,11 +8,16 @@ body {
 
 /* HERO SECTION */
 .hero {
-  text-align: center; 
-  padding: 100px 20px;
+  text-align: center;
+  padding: 80px 20px;
   background: url("SmartFarming.jpg") center/cover no-repeat;
   color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .hero h1 {
   font-size: 3rem;
@@ -57,26 +62,23 @@ body {
 }
 
 .features ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  text-align: center;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .features li {
-  font-size: 1.3rem;
-  margin: 10px 0;
+  display: block;
+  text-align: center;
 }
-
 /* IMAGE FIX */
 .visual img {
-  width: 40%;        /* smaller */
-  max-width: 350px;  /* cannot exceed this */
-  display: block;
-  margin: 20px auto;
-  border-radius: 12px;
-  object-fit: contain;
+  width: 40%;
+  max-width: 350px;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover; 
 }
+
 
 /* INFO SECTION */
 .info {
