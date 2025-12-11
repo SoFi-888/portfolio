@@ -57,7 +57,7 @@ body {
 .features {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f5f7fa;
+  background-color: transparent;
 }
 
 .features ul {
@@ -116,7 +116,7 @@ body {
 .cta-final {
   text-align: center;
   padding: 70px 20px;
-  background-color: #eef7ff;
+  background-color: transparent;
 }
 
 /* FOOTER */
