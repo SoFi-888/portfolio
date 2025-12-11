@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f0f6ff;
+	background-color: #dff5d8;
 	color: #333;
 	margin: 0;
 	padding: 20px;
@@ -20,6 +20,15 @@ button {
 	padding: 10px 20px;
 	margin-top: 10px;
 	cursor: pointer;
+}
+
+.hero-desc,
+.features-desc,
+.info-desc {
+  max-width: 700px;
+  margin: 10px auto 0;
+  font-size: 1.05rem;
+  opacity: 0.95;
 }
 
 body.dark {
