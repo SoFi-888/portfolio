@@ -1,4 +1,3 @@
-/* GENERAL */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -10,7 +9,7 @@ body {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: url("SmartFarming.jpg") center/cover no-repeat;
+  background: url("Vegetation.jpg") center/cover no-repeat;
   color: white;
   height: 350px;
   display: flex;
@@ -45,7 +44,7 @@ body {
 
 /* FEATURES */
 .features {
-  text-align: center; /* centers inside content */
+  text-align: center;
   padding: 50px 20px;
   background-color: #f9f9f9;
 }
@@ -78,7 +77,6 @@ body {
   max-height: 250px;
   object-fit: cover; 
 }
-
 
 /* INFO SECTION */
 .info {
@@ -119,7 +117,7 @@ footer {
   }
 
   .visual img {
-    width: 85%;        /* smaller on phones */
+    width: 85%;
     max-width: 350px;
   }
 }
