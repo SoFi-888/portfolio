@@ -1,3 +1,4 @@
+/* GENERAL */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,6 +8,7 @@ body {
 
 /* HERO SECTION */
 .hero {
+  text-align: center; 
   padding: 100px 20px;
   background: url("SmartFarming.jpg") center/cover no-repeat;
   color: white;
@@ -36,51 +38,43 @@ body {
   background-color: #0056d1;
 }
 
-/* FEATURES SECTION */
+/* FEATURES */
 .features {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
+  text-align: center; /* centers inside content */
   padding: 50px 20px;
   background-color: #f9f9f9;
-  flex-wrap: wrap; /* Ensures perfect layout on smaller screens */
 }
 
 .feature-card {
+  margin: 20px auto;
   width: 280px;
   padding: 25px;
   background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  text-align: center;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* VISUAL IMAGE */
+/* IMAGE FIX */
 .visual img {
-  width: 50%;
-  max-width: 100px;
+  width: 60%;           /* 🚀 MUCH smaller */
+  max-width: 450px;     /* 🚀 absolutely prevents it from getting too big */
   height: auto;
   display: block;
-  margin: 40px auto;
+  margin: 30px auto;    /* centers the image */
   border-radius: 12px;
-  object-fit: cover;
+  object-fit: contain;  /* keeps normal shape */
 }
 
 /* INFO SECTION */
 .info {
   padding: 60px 20px;
-}
-
-.info h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .info p {
-  max-width: 700px;
+  max-width: 650px;
   margin: 0 auto;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -88,6 +82,7 @@ body {
 
 /* CTA FINAL */
 .cta-final {
+  text-align: center;
   padding: 70px 20px;
   background-color: #eef7ff;
 }
@@ -99,8 +94,7 @@ footer {
   background: #333;
   color: #fff;
 }
-
-/* RESPONSIVENESS */
+/* RESPONSIVE */
 @media screen and (max-width: 768px) {
 
   .hero h1 {
@@ -111,16 +105,8 @@ footer {
     font-size: 1rem;
   }
 
-  .features {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .feature-card {
-    width: 90%;
-  }
-
   .visual img {
-    width: 95%;
+    width: 85%;        /* smaller on phones */
+    max-width: 350px;
   }
 }
