@@ -3,10 +3,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center; /* Center ALL text by default */
 }
 
+/* HERO SECTION */
 .hero {
-  text-align: center;
   padding: 100px 20px;
   background: url("SmartFarming.jpg") center/cover no-repeat;
   color: white;
@@ -14,19 +15,21 @@ body {
 
 .hero h1 {
   font-size: 3rem;
+  margin: 0;
 }
 
 .hero p {
   font-size: 1.2rem;
+  margin: 10px 0 20px;
 }
 
 .cta {
   padding: 15px 30px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
@@ -34,16 +37,19 @@ body {
   background-color: #0056d1;
 }
 
+/* FEATURES SECTION */
 .features {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
   padding: 50px 20px;
   background-color: #f9f9f9;
+  flex-wrap: wrap; /* Ensures perfect layout on smaller screens */
 }
 
 .feature-card {
-  flex: 1;
-  margin: 0 15px;
+  width: 280px;
   padding: 25px;
   background: #ffffff;
   border: 1px solid #ddd;
@@ -53,35 +59,41 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+/* VISUAL IMAGE */
 .visual img {
-  width: 100%;
-  max-width: 900px;
+  width: 90%;
+  max-width: 800px;    /* Perfect size for large screens */
+  height: auto;        /* Maintains aspect ratio */
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
   border-radius: 12px;
+  object-fit: cover;
 }
 
+/* INFO SECTION */
 .info {
   padding: 60px 20px;
-  text-align: center;
 }
 
 .info h2 {
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .info p {
   max-width: 700px;
-  margin: 10px auto;
+  margin: 0 auto;
   font-size: 1.1rem;
+  line-height: 1.6;
 }
 
+/* CTA FINAL */
 .cta-final {
-  text-align: center;
-  padding: 80px 20px;
+  padding: 70px 20px;
   background-color: #eef7ff;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
@@ -89,20 +101,27 @@ footer {
   color: #fff;
 }
 
+/* RESPONSIVENESS */
 @media screen and (max-width: 768px) {
-  .features {
-    flex-direction: column;
-  }
-
-  .feature-card {
-    margin: 15px 0;
-  }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .hero p {
     font-size: 1rem;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .feature-card {
+    width: 90%;
+  }
+
+  .visual img {
+    width: 95%;
   }
 }
