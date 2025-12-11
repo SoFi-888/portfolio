@@ -56,15 +56,26 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features li {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
 /* IMAGE FIX */
 .visual img {
-  width: 60%;           /* 🚀 MUCH smaller */
-  max-width: 450px;     /* 🚀 absolutely prevents it from getting too big */
-  height: auto;
+  width: 40%;        /* smaller */
+  max-width: 350px;  /* cannot exceed this */
   display: block;
-  margin: 30px auto;    /* centers the image */
+  margin: 20px auto;
   border-radius: 12px;
-  object-fit: contain;  /* keeps normal shape */
+  object-fit: contain;
 }
 
 /* INFO SECTION */
