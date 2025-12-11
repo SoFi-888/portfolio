@@ -60,7 +60,7 @@ body {
 }
 
 .cta:hover {
-  background-color: #0056d1;
+  background-color: #00c951;
 }
 
 /* FEATURES */
@@ -154,7 +154,6 @@ footer {
   font-size: 1.1rem;
 }
 
-/* Grid for details boxes */
 .details-grid {
   display: flex;
   justify-content: center;
