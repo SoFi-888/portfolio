@@ -137,6 +137,56 @@ footer {
   color: #fff;
 }
 
+/* DETAILS / INFORMATION SECTION */
+.details {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.details h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.details p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+/* Grid for details boxes */
+.details-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.details-grid .box {
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.details-grid .box h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+/* FOOTER STYLES */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #333;
+  color: #fff;
+}
+
+footer p {
+  margin: 8px 0;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
 
